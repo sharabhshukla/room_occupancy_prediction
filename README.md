@@ -1,4 +1,4 @@
-https://travis-ci.org/sharabhshukla/room_occupancy_prediction.svg?branch=master
+[![Build Status](https://travis-ci.com/sharabhshukla/room_occupancy_prediction.svg?branch=master)](https://travis-ci.com/sharabhshukla/room_occupancy_prediction)
 
 room-occupancy-prediction-model
 ==============================
