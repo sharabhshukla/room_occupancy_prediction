@@ -1,3 +1,5 @@
+https://travis-ci.org/sharabhshukla/room_occupancy_prediction.svg?branch=master
+
 room-occupancy-prediction-model
 ==============================
 
