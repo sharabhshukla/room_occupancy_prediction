@@ -1,1 +1,0 @@
-temporal_featurizer = ['hour', 'dayofweek']

@@ -1,9 +1,18 @@
-from add_time_features import add_time_features
 import numpy as np
 import pandas as pd
 from sklearn.base import TransformerMixin, BaseEstimator
 from feature_engine import missing_data_imputers as mdi
 from catboost import CatBoostClassifier
+
+
+def add_time_features(df):
+    df['hour'] = df.index.hour
+    df['dayofweek'] = df.index.dayofweek
+    df['dayofmonth'] = df.index.day
+    
+    df['sine_hr'] = np.sin(df.index.hour/6)
+    df['cos_hr'] = np.cos(df.index.hour/6)
+    return df
 
 class CategoricalImputer(TransformerMixin, BaseEstimator):
 
